@@ -1,0 +1,233 @@
+{
+	"id": "28a37989-b9eb-4e00-a193-f8c82ac07031",
+	"name": "COURSES",
+	"timestamp": "2022-10-08T10:49:56.834Z",
+	"collection_id": "23092539-8348adbf-cf57-4d2d-b7a1-dd879e2688b0",
+	"folder_id": 0,
+	"environment_id": "23092539-a52c2d6b-5ce3-422b-8e03-b54b297db9ce",
+	"totalPass": 15,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e7be283b-8f4c-44ed-ac72-e01a7fff5ba2",
+			"name": "CREATE COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/",
+			"time": 112,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"verify that the title matches": true,
+				"title": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify that the title matches": {
+					"pass": 1,
+					"fail": 0
+				},
+				"title": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				112
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"verify that the title matches": true,
+					"title": true
+				}
+			]
+		},
+		{
+			"id": "7806f5a9-e221-4852-8e68-abf2f8629f5a",
+			"name": "LIST COURSES",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/",
+			"time": 44,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true,
+				"Status code is 200": true,
+				"Body categoryId matches string": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body categoryId matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				44
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"Status code is 200": true,
+					"Body categoryId matches string": true
+				}
+			]
+		},
+		{
+			"id": "bfcd8838-17b5-4217-b3a2-6d95d2b7bd4e",
+			"name": "GET COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/1428",
+			"time": 39,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true,
+				"Status code is 200": true,
+				"Body matches title": true,
+				"Body categoryId matches string": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body categoryId matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				39
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"Status code is 200": true,
+					"Body matches title": true,
+					"Body categoryId matches string": true
+				}
+			]
+		},
+		{
+			"id": "316490f8-c861-4bb2-9c02-040ef2473c4b",
+			"name": "UPDATE COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/1428",
+			"time": 43,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true,
+				"Status code is 200": true,
+				"Body categoryId matches string": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body categoryId matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				43
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"Status code is 200": true,
+					"Body categoryId matches string": true
+				}
+			]
+		},
+		{
+			"id": "7f24ef61-b5d0-4373-8d9e-5b4e4abdafe3",
+			"name": "DELETE COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/1428",
+			"time": 46,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Response time is less than 200ms": true,
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				46
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 284,
+	"collection": {
+		"requests": [
+			{
+				"id": "e7be283b-8f4c-44ed-ac72-e01a7fff5ba2",
+				"method": "POST"
+			},
+			{
+				"id": "7806f5a9-e221-4852-8e68-abf2f8629f5a",
+				"method": "GET"
+			},
+			{
+				"id": "bfcd8838-17b5-4217-b3a2-6d95d2b7bd4e",
+				"method": "GET"
+			},
+			{
+				"id": "316490f8-c861-4bb2-9c02-040ef2473c4b",
+				"method": "PUT"
+			},
+			{
+				"id": "7f24ef61-b5d0-4373-8d9e-5b4e4abdafe3",
+				"method": "DELETE"
+			}
+		]
+	}
+}
